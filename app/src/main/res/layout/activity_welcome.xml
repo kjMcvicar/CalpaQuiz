@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WelcomeActivity"
+    android:background="@color/colorBackground">
+
+    <TextView
+        android:layout_width="125pt"
+        android:layout_height="35pt"
+        android:text="Calpa Quiz"
+        android:textSize="25pt"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_marginTop="10pt"
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:layout_width="120pt"
+        android:layout_height="120pt"
+        android:layout_gravity="center"
+        android:src="@drawable/calpa"
+        android:layout_marginTop="10pt"/>
+
+    <Button
+        android:id="@+id/btnStart"
+        android:text="START"
+        android:textSize="15pt"
+        android:layout_width="125pt"
+        android:layout_height="50pt"
+        android:layout_gravity="center"
+        android:background="@drawable/rounded_button"
+        android:textColor="#ffffff"
+        android:layout_marginTop="15pt"/>
+
+    <Button
+        android:id="@+id/btnInfo"
+        android:text="INFO"
+        android:textSize="15pt"
+        android:textColor="#ffffff"
+        android:background="@drawable/rounded_button"
+        android:layout_width="125pt"
+        android:layout_height="50pt"
+        android:layout_gravity="center"
+        android:layout_marginVertical="10pt"/>
+</LinearLayout>

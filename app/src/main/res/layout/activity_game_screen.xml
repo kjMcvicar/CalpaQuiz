@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".GameScreenActivity">
+    <TextView
+        android:layout_width="60pt"
+        android:layout_height="25pt"
+        android:layout_marginTop="30dp"
+        android:text="Score:"
+        android:layout_marginLeft="10dp"
+        android:textColor="#ffffff"
+        android:textSize="20pt"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtvScore"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="98dp"
+        android:layout_marginLeft="98dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="200dp"
+        android:layout_marginRight="180dp"
+        android:textSize="20pt"
+        android:text="0"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/txtvCount"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="-152dp"
+        android:layout_marginLeft="-152dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="13dp"
+        android:text="0/10"
+        android:textColor="#ffffff"
+        android:textSize="20pt" />
+
+    <ImageView
+        android:layout_width="80pt"
+        android:layout_height="80pt"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="115dp"
+        android:src="@drawable/calpa" />
+
+    <TextView
+        android:id="@+id/txtvQuestion"
+        android:layout_width="313dp"
+        android:layout_height="83dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="350dp"
+        android:text="Country"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="35sp" />
+
+    <Button
+        android:id="@+id/btnAnsA"
+        android:layout_width="192dp"
+        android:layout_height="91dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/rounded_button"
+        android:text="City 1"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/citySize" />
+
+    <Button
+        android:id="@+id/btnAnsB"
+        android:layout_width="185dp"
+        android:layout_height="87dp"
+        android:layout_marginLeft="215dp"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/rounded_button"
+        android:text="City 2"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/citySize" />
+
+    <Button
+        android:id="@+id/btnAnsC"
+        android:layout_width="192dp"
+        android:layout_height="87dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="600dp"
+        android:background="@drawable/rounded_button"
+        android:text="City 3"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/citySize" />
+
+    <Button
+        android:id="@+id/btnAnsD"
+        android:layout_width="186dp"
+        android:layout_height="85dp"
+        android:layout_marginLeft="215dp"
+        android:layout_marginTop="600dp"
+        android:background="@drawable/rounded_button"
+        android:text="City 4"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/citySize" />
+</RelativeLayout>
